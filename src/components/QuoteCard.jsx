@@ -11,7 +11,7 @@ import "./QuoteCard.css"
             <div className="container__phrase">
             <p className="quoteCard__phrase">{quote.phrase}</p>
             </div>
-            <button className="quoteCard__btn" onClick={handleChangeQuote}><i class='bx bx-reset'></i></button>
+            <button className="quoteCard__btn" onClick={handleChangeQuote}><i class='bx bxs-right-arrow-circle'></i></button>
          </article>
 
         <footer className="quoteCard__footer">
